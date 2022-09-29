@@ -1,25 +1,24 @@
-
-import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Head from "next/head";
 
-const Index = () => {
-
-
+const About = () => {
   return (
     <>
       <Head>
-        <title> Home Page </title>
+        <title> About Page </title>
       </Head>
 
       <Navbar></Navbar>
 
       <div className="mx-8">
         <h1 className="text-3xl">
-          This is Home Page...
+          This is About Page...
         </h1>
       </div>
 
     </>
+
   );
 };
-export default Index;
+
+export default About;
