@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -8,13 +9,14 @@ const About = () => {
         <title> About Page </title>
       </Head>
 
-      <Navbar></Navbar>
+
 
       <div className="mx-8">
         <h1 className="text-3xl">
           This is About Page...
         </h1>
       </div>
+
 
     </>
 
